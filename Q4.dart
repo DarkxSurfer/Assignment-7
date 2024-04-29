@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   print("Enter a string to check if it's a palindrome:");
-  String input = stdin.readLineSync() ?? '';  // Read input from user
+  String input = stdin.readLineSync() ?? ''; 
   
   if (isPalindrome(input)) {
     print('"$input" is a palindrome.');
